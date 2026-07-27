@@ -1,7 +1,27 @@
 aid: imerso
 name: Imerso
-description: Imerso is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Imerso is a construction management and quality-control software company that connects the
+  onsite as-built reality to BIM models. Using 3D laser scanning (including a free Imerso Capture
+  mobile app for Leica BLK360 scanners) and in-house AI models, its Site Checker automatically
+  compares the built status of a jobsite against BIM plan specifications, surfacing deviations,
+  progress tracking, and as-built data grouped by traffic-light categories. The platform targets
+  general contractors and BIM teams for automated site supervision, progress reporting, and issue
+  detection, and promotes 100% open data with direct integrations into tools such as Autodesk
+  Construction Cloud. Imerso is a 500 Global portfolio company. No public developer API, SDK, or
+  documentation surface has been found; this profile is maintained as a company record.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.imerso.com/hubfs/HomeImerso2.png
 url: https://raw.githubusercontent.com/api-evangelist/imerso/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Construction
+- BIM
+- Reality Capture
+- 3D Scanning
+- Digital Twin
+- Quality Control
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,26 @@ maintainers:
 common:
 - type: Website
   url: https://imerso.com
+- type: Product
+  url: https://www.imerso.com/product
+- type: Pricing
+  url: https://www.imerso.com/pricing
+- type: Blog
+  url: https://www.imerso.com/blog
+- type: Support
+  url: https://www.imerso.com/contact-us
+- type: SignUp
+  url: https://app.imerso.com/
+- type: Login
+  url: https://app.imerso.com/
+- type: TermsOfService
+  url: https://www.imerso.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.imerso.com/privacy-policy
+- type: CaseStudies
+  url: https://www.imerso.com/case-studies
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
