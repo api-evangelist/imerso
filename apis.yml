@@ -10,6 +10,17 @@ description: >-
   detection, and promotes 100% open data with direct integrations into tools such as Autodesk
   Construction Cloud. Imerso is a 500 Global portfolio company. No public developer API, SDK, or
   documentation surface has been found; this profile is maintained as a company record.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
