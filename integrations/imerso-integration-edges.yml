@@ -1,6 +1,7 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- https://www.bentley.com/en/ecosystem-catalog/catalog/
 - procore/integrations/procore-integration-edges.yml
 source:
 - procore/integrations/procore-integration-edges.yml
@@ -22,3 +23,20 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: BIM; Field Productivity; Quality & Safety
+- partner_name: Bentley Systems (own)
+  partner: bentley-systems
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.bentley.com/en/ecosystem-catalog/catalog/?listing=14204
+  mirror_of: bentley-systems/integrations/bentley-systems-integration-edges.yml
+  apps:
+  - Imerso
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: Applications and Plug-ins
